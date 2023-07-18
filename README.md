@@ -5,19 +5,19 @@ Trivy is an open-source vulnerability scanner tool specifically designed for con
 All the commands are documented in CMD text file.
 
 What Trivy can scan:
-
+```
 - Container Image
 - File System
 - Git Repo (Remote)
 - Virtual Machine Image
 - Kubernetes
 - AWS
-
+```
 What Trivy can find:
-
+```
 - OS Packages and software dependencies in user
 - Known vulnerabilities 
 - IaC issues and misconfigurations
 - Sensitive Information and secrets
 - Software licenses
-
+```
