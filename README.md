@@ -37,7 +37,7 @@ sudo reboot
 `Reboot is required to make Ubuntu user execute the Docker commands`
 
 2. Install Trivy:
-
+```
 sudo apt-get install wget apt-transport-https gnupg lsb-release
 
 wget -qO - https://aquasecurity.github.io/trivy-repo/deb/public.key | gpg --dearmor | sudo tee /usr/share/keyrings/trivy.gpg > /dev/null
@@ -47,17 +47,17 @@ echo "deb [signed-by=/usr/share/keyrings/trivy.gpg] https://aquasecurity.github.
 sudo apt-get update
 
 sudo apt-get install trivy
-
+```
 
 3. Check Trivy Version:
-
+```
 trivy -v
-
+```
 
 4. Pull any docker image
-
+```
 docker pull nginx
-
+```
 
 5. Now run Trivy scan on Nginx image
 
