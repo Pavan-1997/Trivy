@@ -60,9 +60,9 @@ docker pull nginx
 ```
 
 5. Now run Trivy scan on Nginx image
-
+```
 trivy image nginx
-
+```
 
 6. To filter a severity
 
