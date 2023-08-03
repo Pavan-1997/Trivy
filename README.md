@@ -21,6 +21,7 @@ What Trivy can find:
 ```
 
 ---
+# Working with Trivy
 
 1. Update Repo and Install Docker:
 
