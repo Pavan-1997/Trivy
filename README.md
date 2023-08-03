@@ -70,9 +70,9 @@ trivy image --severity HIGH,CRITICAL nginx
 ```
 
 7. Clone a repo:
-
+```
 git clone https://github.com/jacob-bd/kubeturbo-sample-yamls.git
-
+```
 
 8. Now run Trivyscan on a folder(cloned)
 
