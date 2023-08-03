@@ -85,5 +85,6 @@ trivy image -f json -o results.json nginx
 ```
 
 10. To scan a K8s cluster
-
+```
 trivy k8s --report summary cluster
+```
