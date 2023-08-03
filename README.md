@@ -75,9 +75,9 @@ git clone https://github.com/jacob-bd/kubeturbo-sample-yamls.git
 ```
 
 8. Now run Trivyscan on a folder(cloned)
-
+```
 trivy fs --security-checks vuln,config kubeturbo-sample-yamls
-
+```
 
 9. Download a local copy of the report in JSON format for Nginx image
 
