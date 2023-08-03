@@ -65,9 +65,9 @@ trivy image nginx
 ```
 
 6. To filter a severity
-
+```
 trivy image --severity HIGH,CRITICAL nginx
-
+```
 
 7. Clone a repo:
 
