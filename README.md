@@ -80,9 +80,9 @@ trivy fs --security-checks vuln,config kubeturbo-sample-yamls
 ```
 
 9. Download a local copy of the report in JSON format for Nginx image
-
+```
 trivy image -f json -o results.json nginx
-
+```
 
 10. To scan a K8s cluster
 
