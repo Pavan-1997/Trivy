@@ -24,15 +24,17 @@ What Trivy can find:
 # Working with Trivy
 
 1. Update Repo and Install Docker:
-
+```
 sudo apt-get update -y
 
 sudo apt-get install docker.io
 
 sudo usermod -aG docker $USER
-
+```
+```
 sudo reboot
-
+```
+`Reboot is required to make Ubuntu user execute the Docker commands`
 
 2. Install Trivy:
 
