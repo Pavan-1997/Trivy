@@ -11,7 +11,7 @@ Trivy is an open-source vulnerability scanner tool specifically designed for con
 - Kubernetes
 - AWS
 ```
-What Trivy can find:
+### What Trivy can find:
 ```
 - OS Packages and software dependencies in user
 - Known vulnerabilities 
